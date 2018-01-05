@@ -1,10 +1,10 @@
 function trgrtime = waitForScannerTrigger()
    % 20180103 WF - wait for trigger keypess
    %  use PTB's KbQueue for new Psychology Software Tools button box
-   %  because simulated keypress is too fast to be consistnatly captured by ListenChar/KbWait/KbCheck
+   %  because simulated keypress is too fast to be consistently captured by ListenChar/KbWait/KbCheck
    %  trigger is a simulated "=" keypress
 
-   % what key(s) are acceptiable scanner start triggers
+   % what key(s) are acceptable scanner start triggers
    triggerKeys = {'=+'};
 
    % setup: var, keys, and queue
